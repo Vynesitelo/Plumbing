@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище CетьМагазиновСантехникиModelContainer" CdmEntityContainer="CетьМагазиновСантехникиEntities1">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="IDCategorie" ColumnName="IDCategorie" />
+          <ScalarProperty Name="nameCategories" ColumnName="nameCategories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Checks">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Checks">
+        <MappingFragment StoreEntitySet="Checks">
+          <ScalarProperty Name="IDCheck" ColumnName="IDCheck" />
+          <ScalarProperty Name="priceCheck" ColumnName="priceCheck" />
+          <ScalarProperty Name="dateAndTimeCheck" ColumnName="dateAndTimeCheck" />
+          <ScalarProperty Name="IDEmployeeCheck" ColumnName="IDEmployeeCheck" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Employees">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="IDEmployee" ColumnName="IDEmployee" />
+          <ScalarProperty Name="nameEmployee" ColumnName="nameEmployee" />
+          <ScalarProperty Name="phoneEmployee" ColumnName="phoneEmployee" />
+          <ScalarProperty Name="adressEmployee" ColumnName="adressEmployee" />
+          <ScalarProperty Name="experienceEmployee" ColumnName="experienceEmployee" />
+          <ScalarProperty Name="IDStoreEmployee" ColumnName="IDStoreEmployee" />
+          <ScalarProperty Name="IDCategoriesEmployee" ColumnName="IDCategoriesEmployee" />
+          <ScalarProperty Name="IDJobTitleEmployee" ColumnName="IDJobTitleEmployee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobTitle">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.JobTitle">
+        <MappingFragment StoreEntitySet="JobTitle">
+          <ScalarProperty Name="IDJT" ColumnName="IDJT" />
+          <ScalarProperty Name="nameJT" ColumnName="nameJT" />
+          <ScalarProperty Name="loginJT" ColumnName="loginJT" />
+          <ScalarProperty Name="passwordJT" ColumnName="passwordJT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaintingColors">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.PaintingColors">
+        <MappingFragment StoreEntitySet="PaintingColors">
+          <ScalarProperty Name="IDPC" ColumnName="IDPC" />
+          <ScalarProperty Name="namePC" ColumnName="namePC" />
+          <ScalarProperty Name="pricePC" ColumnName="pricePC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="nameProduct" ColumnName="nameProduct" />
+          <ScalarProperty Name="priceProduct" ColumnName="priceProduct" />
+          <ScalarProperty Name="purchasePriceProduct" ColumnName="purchasePriceProduct" />
+          <ScalarProperty Name="AmountInStocksProduct" ColumnName="AmountInStocksProduct" />
+          <ScalarProperty Name="IDCategories" ColumnName="IDCategories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsInCheck">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInCheck">
+        <MappingFragment StoreEntitySet="ProductsInCheck">
+          <ScalarProperty Name="IDPIC" ColumnName="IDPIC" />
+          <ScalarProperty Name="IDCheckPIC" ColumnName="IDCheckPIC" />
+          <ScalarProperty Name="IDProductPIC" ColumnName="IDProductPIC" />
+          <ScalarProperty Name="IDPaintingColorPIC" ColumnName="IDPaintingColorPIC" />
+          <ScalarProperty Name="pricePIC" ColumnName="pricePIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsInStores">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInStores">
+        <MappingFragment StoreEntitySet="ProductsInStores">
+          <ScalarProperty Name="IDPIS" ColumnName="IDPIS" />
+          <ScalarProperty Name="IDProductsPIS" ColumnName="IDProductsPIS" />
+          <ScalarProperty Name="IDStorePIS" ColumnName="IDStorePIS" />
+          <ScalarProperty Name="AmountPIS" ColumnName="AmountPIS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsInSupplies">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInSupplies">
+        <MappingFragment StoreEntitySet="ProductsInSupplies">
+          <ScalarProperty Name="IDPISupplies" ColumnName="IDPISupplies" />
+          <ScalarProperty Name="IDProductPISupplies" ColumnName="IDProductPISupplies" />
+          <ScalarProperty Name="IDSuppliesPISupplies" ColumnName="IDSuppliesPISupplies" />
+          <ScalarProperty Name="amountPISupplies" ColumnName="amountPISupplies" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provider">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Provider">
+        <MappingFragment StoreEntitySet="Provider">
+          <ScalarProperty Name="IDProvider" ColumnName="IDProvider" />
+          <ScalarProperty Name="nameProvider" ColumnName="nameProvider" />
+          <ScalarProperty Name="contactDetailsProvider" ColumnName="contactDetailsProvider" />
+          <ScalarProperty Name="phoneProvider" ColumnName="phoneProvider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Stores">
+        <MappingFragment StoreEntitySet="Stores">
+          <ScalarProperty Name="IDStore" ColumnName="IDStore" />
+          <ScalarProperty Name="adressStore" ColumnName="adressStore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supplies">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Supplies">
+        <MappingFragment StoreEntitySet="Supplies">
+          <ScalarProperty Name="IDSupplie" ColumnName="IDSupplie" />
+          <ScalarProperty Name="IDProviderSupplie" ColumnName="IDProviderSupplie" />
+          <ScalarProperty Name="dateAndTimeSupplie" ColumnName="dateAndTimeSupplie" />
+          <ScalarProperty Name="priceSupplie" ColumnName="priceSupplie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

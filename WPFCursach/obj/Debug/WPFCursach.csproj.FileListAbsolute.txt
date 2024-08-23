@@ -1,0 +1,448 @@
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\WPFCursach.exe.config
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\WPFCursach.exe
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\WPFCursach.pdb
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\App.g.cs
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.g.resources
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.exe
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.pdb
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\Window1.g.cs
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\AutorizationWindow.baml
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\Window1.baml
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\MessageBox.g.cs
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\EntityFramework.dll
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\EntityFramework.xml
+D:\Projects\CursachWPF\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\MessageBox.baml
+D:\Projects\CursachWPF\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\Казаченко\Desktop\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\App.g.cs
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\Window1.baml
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\Казаченко\Desktop\WPFCursach\obj\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\кур\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\xantein\Downloads\Новая сжатая ZIP-папка (4)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\vynes\Desktop\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\App.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\Window1.baml
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\vynes\Desktop\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\Курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\Проект\Desktop\курсач\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csprojAssemblyReference.cache
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\Бородин\Desktop\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteEmployee.resources
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddAndDeleteSupplies.resources
+C:\Users\vynes\Desktop\Новая сжатая ZIP-папка (4) (2)\Новая сжатая ZIP-папка (4)\Новая сжатая ZIP-папка\Новая сжатая ZIP-папка (4) (1)(1)\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteProviders.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csprojAssemblyReference.cache
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\App.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\Window1.baml
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddAndDeleteSupplies.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteEmployee.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteProviders.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\Бородин\Desktop\databaseCursach\WPFCursach\obj\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.exe.config
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.pdb
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\AdminWindow.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\EditProduct.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\MessageBox.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\UserControl1.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\Window1.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\App.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\AdminWindow.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\AutorizationWindow.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\EditProduct.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\MessageBox.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\UserControl1.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\Window1.baml
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.g.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddAndDeleteSupplies.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteEmployee.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteProviders.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.exe
+\\v01-fs-01\Home-edu\All\ИП-321(9)\Students\поротин пакташа\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.exe.config
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\WPFCursach.pdb
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.dll
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.xml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.AssemblyReference.cache
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.SuggestedBindingRedirects.cache
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\AdminWindow.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\AutorizationWindow.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\EditProduct.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\MessageBox.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\UserControl1.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\Window1.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\App.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_Content.g.cs
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.cache
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach_MarkupCompile.lref
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\AdminWindow.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\AutorizationWindow.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\EditProduct.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\MessageBox.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\ReceiptColorsAndEmployee.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\UserControl1.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\Window1.baml
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.g.resources
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddAndDeleteSupplies.resources
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteEmployee.resources
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.FormAddEditAndDeleteProviders.resources
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.Properties.Resources.resources
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.GenerateResource.cache
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.CoreCompileInputs.cache
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.csproj.CopyComplete
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.exe
+C:\Users\vynes\Desktop\CursachBorodin\WPFCursach\obj\Debug\WPFCursach.pdb

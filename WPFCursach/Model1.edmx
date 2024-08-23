@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище CетьМагазиновСантехникиModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="IDCategorie" />
+          </Key>
+          <Property Name="IDCategorie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nameCategories" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Checks">
+          <Key>
+            <PropertyRef Name="IDCheck" />
+          </Key>
+          <Property Name="IDCheck" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="priceCheck" Type="money" />
+          <Property Name="dateAndTimeCheck" Type="datetime" />
+          <Property Name="IDEmployeeCheck" Type="int" />
+        </EntityType>
+        <EntityType Name="Employees">
+          <Key>
+            <PropertyRef Name="IDEmployee" />
+          </Key>
+          <Property Name="IDEmployee" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nameEmployee" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="phoneEmployee" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="adressEmployee" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="experienceEmployee" Type="int" Nullable="false" />
+          <Property Name="IDStoreEmployee" Type="int" />
+          <Property Name="IDCategoriesEmployee" Type="int" />
+          <Property Name="IDJobTitleEmployee" Type="int" />
+        </EntityType>
+        <EntityType Name="JobTitle">
+          <Key>
+            <PropertyRef Name="IDJT" />
+          </Key>
+          <Property Name="IDJT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nameJT" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="loginJT" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="passwordJT" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PaintingColors">
+          <Key>
+            <PropertyRef Name="IDPC" />
+          </Key>
+          <Property Name="IDPC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="namePC" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="pricePC" Type="money" />
+        </EntityType>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="IDProduct" />
+          </Key>
+          <Property Name="IDProduct" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nameProduct" Type="varchar" MaxLength="255" />
+          <Property Name="priceProduct" Type="money" />
+          <Property Name="purchasePriceProduct" Type="money" Nullable="false" />
+          <Property Name="AmountInStocksProduct" Type="int" Nullable="false" />
+          <Property Name="ImagePath" Type="nvarchar" MaxLength="255" />
+          <Property Name="IDCategories" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductsInCheck">
+          <Key>
+            <PropertyRef Name="IDPIC" />
+          </Key>
+          <Property Name="IDPIC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDCheckPIC" Type="int" />
+          <Property Name="IDProductPIC" Type="int" />
+          <Property Name="IDPaintingColorPIC" Type="int" />
+          <Property Name="pricePIC" Type="money" />
+        </EntityType>
+        <EntityType Name="ProductsInStores">
+          <Key>
+            <PropertyRef Name="IDPIS" />
+          </Key>
+          <Property Name="IDPIS" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDProductsPIS" Type="int" />
+          <Property Name="IDStorePIS" Type="int" />
+          <Property Name="AmountPIS" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProductsInSupplies">
+          <Key>
+            <PropertyRef Name="IDPISupplies" />
+          </Key>
+          <Property Name="IDPISupplies" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDProductPISupplies" Type="int" />
+          <Property Name="IDSuppliesPISupplies" Type="int" />
+          <Property Name="amountPISupplies" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Provider">
+          <Key>
+            <PropertyRef Name="IDProvider" />
+          </Key>
+          <Property Name="IDProvider" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nameProvider" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="contactDetailsProvider" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="phoneProvider" Type="varchar" MaxLength="11" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Stores">
+          <Key>
+            <PropertyRef Name="IDStore" />
+          </Key>
+          <Property Name="IDStore" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="adressStore" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Supplies">
+          <Key>
+            <PropertyRef Name="IDSupplie" />
+          </Key>
+          <Property Name="IDSupplie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDProviderSupplie" Type="int" />
+          <Property Name="dateAndTimeSupplie" Type="datetime" />
+          <Property Name="priceSupplie" Type="money" />
+        </EntityType>
+        <Association Name="FK__Checks__IDEmploy__440B1D61">
+          <End Role="Employees" Type="Self.Employees" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Checks" Type="Self.Checks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employees">
+              <PropertyRef Name="IDEmployee" />
+            </Principal>
+            <Dependent Role="Checks">
+              <PropertyRef Name="IDEmployeeCheck" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employees__IDCat__3C69FB99">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="IDCategorie" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDCategoriesEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employees__IDJob__3D5E1FD2">
+          <End Role="JobTitle" Type="Self.JobTitle" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobTitle">
+              <PropertyRef Name="IDJT" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDJobTitleEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employees__IDSto__3B75D760">
+          <End Role="Stores" Type="Self.Stores" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Stores">
+              <PropertyRef Name="IDStore" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDStoreEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Products__IDCate__29572725">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="Products" Type="Self.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="IDCategorie" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="IDCategories" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDChe__46E78A0C">
+          <End Role="Checks" Type="Self.Checks" Multiplicity="0..1" />
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Checks">
+              <PropertyRef Name="IDCheck" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDCheckPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPai__48CFD27E">
+          <End Role="PaintingColors" Type="Self.PaintingColors" Multiplicity="0..1" />
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PaintingColors">
+              <PropertyRef Name="IDPC" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDPaintingColorPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__2C3393D0">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInStores" Type="Self.ProductsInStores" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInStores">
+              <PropertyRef Name="IDProductsPIS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__35BCFE0A">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInSupplies" Type="Self.ProductsInSupplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInSupplies">
+              <PropertyRef Name="IDProductPISupplies" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__47DBAE45">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDProductPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDSto__2D27B809">
+          <End Role="Stores" Type="Self.Stores" Multiplicity="0..1" />
+          <End Role="ProductsInStores" Type="Self.ProductsInStores" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Stores">
+              <PropertyRef Name="IDStore" />
+            </Principal>
+            <Dependent Role="ProductsInStores">
+              <PropertyRef Name="IDStorePIS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDSup__36B12243">
+          <End Role="Supplies" Type="Self.Supplies" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInSupplies" Type="Self.ProductsInSupplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplies">
+              <PropertyRef Name="IDSupplie" />
+            </Principal>
+            <Dependent Role="ProductsInSupplies">
+              <PropertyRef Name="IDSuppliesPISupplies" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Supplies__IDProv__31EC6D26">
+          <End Role="Provider" Type="Self.Provider" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Supplies" Type="Self.Supplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Provider">
+              <PropertyRef Name="IDProvider" />
+            </Principal>
+            <Dependent Role="Supplies">
+              <PropertyRef Name="IDProviderSupplie" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="AddAndDeleteSupplies" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Params" Type="int" Mode="In" />
+          <Parameter Name="IDProviderSupplie" Type="int" Mode="In" />
+          <Parameter Name="IDProductPIS" Type="int" Mode="In" />
+          <Parameter Name="amountPIS" Type="int" Mode="In" />
+          <Parameter Name="IDSuppliesVS" Type="int" Mode="In" />
+        </Function>
+        <Function Name="AddCheck" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idEmployee" Type="int" Mode="In" />
+          <Parameter Name="idColor" Type="int" Mode="In" />
+          <Parameter Name="nameProduct" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="AddEditAndDeleteEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Params" Type="int" Mode="In" />
+          <Parameter Name="nameEmployee" Type="varchar" Mode="In" />
+          <Parameter Name="phoneEmployee" Type="varchar" Mode="In" />
+          <Parameter Name="adressEmployee" Type="varchar" Mode="In" />
+          <Parameter Name="expEmployee" Type="int" Mode="In" />
+          <Parameter Name="IDStoreEmployee" Type="int" Mode="In" />
+          <Parameter Name="IDCategories" Type="int" Mode="In" />
+        </Function>
+        <Function Name="AddEditAndDeleteProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Params" Type="int" Mode="In" />
+          <Parameter Name="name" Type="varchar" Mode="In" />
+          <Parameter Name="price" Type="money" Mode="In" />
+          <Parameter Name="purchasePriceProduct" Type="money" Mode="In" />
+          <Parameter Name="AmountInStocksProduct" Type="int" Mode="In" />
+          <Parameter Name="IDCategories" Type="int" Mode="In" />
+          <Parameter Name="ImagePath" Type="nvarchar" Mode="In" />
+          <Parameter Name="IDStore" Type="int" Mode="In" />
+          <Parameter Name="amount" Type="int" Mode="In" />
+        </Function>
+        <Function Name="AddEditAndDeleteProviders" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Params" Type="int" Mode="In" />
+          <Parameter Name="nameProvider" Type="varchar" Mode="In" />
+          <Parameter Name="contactDetails" Type="varchar" Mode="In" />
+          <Parameter Name="phoneProvider" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="ViewProductsOnCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="IDCategories" Type="int" Mode="In" />
+          <Parameter Name="IDStores" Type="int" Mode="In" />
+          <Parameter Name="Search" Type="varchar" Mode="In" />
+          <Parameter Name="sort" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="Хранилище CетьМагазиновСантехникиModelContainer">
+          <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Checks" EntityType="Self.Checks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JobTitle" EntityType="Self.JobTitle" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PaintingColors" EntityType="Self.PaintingColors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductsInCheck" EntityType="Self.ProductsInCheck" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductsInStores" EntityType="Self.ProductsInStores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductsInSupplies" EntityType="Self.ProductsInSupplies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Provider" EntityType="Self.Provider" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Stores" EntityType="Self.Stores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Supplies" EntityType="Self.Supplies" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Checks__IDEmploy__440B1D61" Association="Self.FK__Checks__IDEmploy__440B1D61">
+            <End Role="Employees" EntitySet="Employees" />
+            <End Role="Checks" EntitySet="Checks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employees__IDCat__3C69FB99" Association="Self.FK__Employees__IDCat__3C69FB99">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employees__IDJob__3D5E1FD2" Association="Self.FK__Employees__IDJob__3D5E1FD2">
+            <End Role="JobTitle" EntitySet="JobTitle" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employees__IDSto__3B75D760" Association="Self.FK__Employees__IDSto__3B75D760">
+            <End Role="Stores" EntitySet="Stores" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Products__IDCate__29572725" Association="Self.FK__Products__IDCate__29572725">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDChe__46E78A0C" Association="Self.FK__ProductsI__IDChe__46E78A0C">
+            <End Role="Checks" EntitySet="Checks" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPai__48CFD27E" Association="Self.FK__ProductsI__IDPai__48CFD27E">
+            <End Role="PaintingColors" EntitySet="PaintingColors" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__2C3393D0" Association="Self.FK__ProductsI__IDPro__2C3393D0">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInStores" EntitySet="ProductsInStores" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__35BCFE0A" Association="Self.FK__ProductsI__IDPro__35BCFE0A">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInSupplies" EntitySet="ProductsInSupplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__47DBAE45" Association="Self.FK__ProductsI__IDPro__47DBAE45">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDSto__2D27B809" Association="Self.FK__ProductsI__IDSto__2D27B809">
+            <End Role="Stores" EntitySet="Stores" />
+            <End Role="ProductsInStores" EntitySet="ProductsInStores" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDSup__36B12243" Association="Self.FK__ProductsI__IDSup__36B12243">
+            <End Role="Supplies" EntitySet="Supplies" />
+            <End Role="ProductsInSupplies" EntitySet="ProductsInSupplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Supplies__IDProv__31EC6D26" Association="Self.FK__Supplies__IDProv__31EC6D26">
+            <End Role="Provider" EntitySet="Provider" />
+            <End Role="Supplies" EntitySet="Supplies" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CетьМагазиновСантехникиModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="IDCategorie" />
+          </Key>
+          <Property Name="IDCategorie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nameCategories" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDCat__3C69FB99" FromRole="Categories" ToRole="Employees" />
+          <NavigationProperty Name="Products" Relationship="Self.FK__Products__IDCate__29572725" FromRole="Categories" ToRole="Products" />
+        </EntityType>
+        <EntityType Name="Checks">
+          <Key>
+            <PropertyRef Name="IDCheck" />
+          </Key>
+          <Property Name="IDCheck" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="priceCheck" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="dateAndTimeCheck" Type="DateTime" Precision="3" />
+          <Property Name="IDEmployeeCheck" Type="Int32" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Checks__IDEmploy__440B1D61" FromRole="Checks" ToRole="Employees" />
+          <NavigationProperty Name="ProductsInCheck" Relationship="Self.FK__ProductsI__IDChe__46E78A0C" FromRole="Checks" ToRole="ProductsInCheck" />
+        </EntityType>
+        <EntityType Name="Employees">
+          <Key>
+            <PropertyRef Name="IDEmployee" />
+          </Key>
+          <Property Name="IDEmployee" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nameEmployee" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="phoneEmployee" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="adressEmployee" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="experienceEmployee" Type="Int32" Nullable="false" />
+          <Property Name="IDStoreEmployee" Type="Int32" />
+          <Property Name="IDCategoriesEmployee" Type="Int32" />
+          <Property Name="IDJobTitleEmployee" Type="Int32" />
+          <NavigationProperty Name="Categories" Relationship="Self.FK__Employees__IDCat__3C69FB99" FromRole="Employees" ToRole="Categories" />
+          <NavigationProperty Name="Checks" Relationship="Self.FK__Checks__IDEmploy__440B1D61" FromRole="Employees" ToRole="Checks" />
+          <NavigationProperty Name="JobTitle" Relationship="Self.FK__Employees__IDJob__3D5E1FD2" FromRole="Employees" ToRole="JobTitle" />
+          <NavigationProperty Name="Stores" Relationship="Self.FK__Employees__IDSto__3B75D760" FromRole="Employees" ToRole="Stores" />
+        </EntityType>
+        <EntityType Name="JobTitle">
+          <Key>
+            <PropertyRef Name="IDJT" />
+          </Key>
+          <Property Name="IDJT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nameJT" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="loginJT" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="passwordJT" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDJob__3D5E1FD2" FromRole="JobTitle" ToRole="Employees" />
+        </EntityType>
+        <EntityType Name="PaintingColors">
+          <Key>
+            <PropertyRef Name="IDPC" />
+          </Key>
+          <Property Name="IDPC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="namePC" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="pricePC" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="ProductsInCheck" Relationship="Self.FK__ProductsI__IDPai__48CFD27E" FromRole="PaintingColors" ToRole="ProductsInCheck" />
+        </EntityType>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="IDProduct" />
+          </Key>
+          <Property Name="IDProduct" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nameProduct" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="priceProduct" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="purchasePriceProduct" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="AmountInStocksProduct" Type="Int32" Nullable="false" />
+          <Property Name="ImagePath" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="IDCategories" Type="Int32" />
+          <NavigationProperty Name="Categories" Relationship="Self.FK__Products__IDCate__29572725" FromRole="Products" ToRole="Categories" />
+          <NavigationProperty Name="ProductsInStores" Relationship="Self.FK__ProductsI__IDPro__2C3393D0" FromRole="Products" ToRole="ProductsInStores" />
+          <NavigationProperty Name="ProductsInSupplies" Relationship="Self.FK__ProductsI__IDPro__35BCFE0A" FromRole="Products" ToRole="ProductsInSupplies" />
+          <NavigationProperty Name="ProductsInCheck" Relationship="Self.FK__ProductsI__IDPro__47DBAE45" FromRole="Products" ToRole="ProductsInCheck" />
+        </EntityType>
+        <EntityType Name="ProductsInCheck">
+          <Key>
+            <PropertyRef Name="IDPIC" />
+          </Key>
+          <Property Name="IDPIC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDCheckPIC" Type="Int32" />
+          <Property Name="IDProductPIC" Type="Int32" />
+          <Property Name="IDPaintingColorPIC" Type="Int32" />
+          <Property Name="pricePIC" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Checks" Relationship="Self.FK__ProductsI__IDChe__46E78A0C" FromRole="ProductsInCheck" ToRole="Checks" />
+          <NavigationProperty Name="PaintingColors" Relationship="Self.FK__ProductsI__IDPai__48CFD27E" FromRole="ProductsInCheck" ToRole="PaintingColors" />
+          <NavigationProperty Name="Products" Relationship="Self.FK__ProductsI__IDPro__47DBAE45" FromRole="ProductsInCheck" ToRole="Products" />
+        </EntityType>
+        <EntityType Name="ProductsInStores">
+          <Key>
+            <PropertyRef Name="IDPIS" />
+          </Key>
+          <Property Name="IDPIS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDProductsPIS" Type="Int32" />
+          <Property Name="IDStorePIS" Type="Int32" />
+          <Property Name="AmountPIS" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Products" Relationship="Self.FK__ProductsI__IDPro__2C3393D0" FromRole="ProductsInStores" ToRole="Products" />
+          <NavigationProperty Name="Stores" Relationship="Self.FK__ProductsI__IDSto__2D27B809" FromRole="ProductsInStores" ToRole="Stores" />
+        </EntityType>
+        <EntityType Name="ProductsInSupplies">
+          <Key>
+            <PropertyRef Name="IDPISupplies" />
+          </Key>
+          <Property Name="IDPISupplies" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDProductPISupplies" Type="Int32" />
+          <Property Name="IDSuppliesPISupplies" Type="Int32" />
+          <Property Name="amountPISupplies" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Products" Relationship="Self.FK__ProductsI__IDPro__35BCFE0A" FromRole="ProductsInSupplies" ToRole="Products" />
+          <NavigationProperty Name="Supplies" Relationship="Self.FK__ProductsI__IDSup__36B12243" FromRole="ProductsInSupplies" ToRole="Supplies" />
+        </EntityType>
+        <EntityType Name="Provider">
+          <Key>
+            <PropertyRef Name="IDProvider" />
+          </Key>
+          <Property Name="IDProvider" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nameProvider" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contactDetailsProvider" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="phoneProvider" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Supplies" Relationship="Self.FK__Supplies__IDProv__31EC6D26" FromRole="Provider" ToRole="Supplies" />
+        </EntityType>
+        <EntityType Name="Stores">
+          <Key>
+            <PropertyRef Name="IDStore" />
+          </Key>
+          <Property Name="IDStore" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="adressStore" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDSto__3B75D760" FromRole="Stores" ToRole="Employees" />
+          <NavigationProperty Name="ProductsInStores" Relationship="Self.FK__ProductsI__IDSto__2D27B809" FromRole="Stores" ToRole="ProductsInStores" />
+        </EntityType>
+        <EntityType Name="Supplies">
+          <Key>
+            <PropertyRef Name="IDSupplie" />
+          </Key>
+          <Property Name="IDSupplie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDProviderSupplie" Type="Int32" />
+          <Property Name="dateAndTimeSupplie" Type="DateTime" Precision="3" />
+          <Property Name="priceSupplie" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="ProductsInSupplies" Relationship="Self.FK__ProductsI__IDSup__36B12243" FromRole="Supplies" ToRole="ProductsInSupplies" />
+          <NavigationProperty Name="Provider" Relationship="Self.FK__Supplies__IDProv__31EC6D26" FromRole="Supplies" ToRole="Provider" />
+        </EntityType>
+        <Association Name="FK__Employees__IDCat__3C69FB99">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="IDCategorie" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDCategoriesEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Products__IDCate__29572725">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="Products" Type="Self.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="IDCategorie" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="IDCategories" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Checks__IDEmploy__440B1D61">
+          <End Role="Employees" Type="Self.Employees" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Checks" Type="Self.Checks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employees">
+              <PropertyRef Name="IDEmployee" />
+            </Principal>
+            <Dependent Role="Checks">
+              <PropertyRef Name="IDEmployeeCheck" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDChe__46E78A0C">
+          <End Role="Checks" Type="Self.Checks" Multiplicity="0..1" />
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Checks">
+              <PropertyRef Name="IDCheck" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDCheckPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employees__IDJob__3D5E1FD2">
+          <End Role="JobTitle" Type="Self.JobTitle" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobTitle">
+              <PropertyRef Name="IDJT" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDJobTitleEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Employees__IDSto__3B75D760">
+          <End Role="Stores" Type="Self.Stores" Multiplicity="0..1" />
+          <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Stores">
+              <PropertyRef Name="IDStore" />
+            </Principal>
+            <Dependent Role="Employees">
+              <PropertyRef Name="IDStoreEmployee" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPai__48CFD27E">
+          <End Role="PaintingColors" Type="Self.PaintingColors" Multiplicity="0..1" />
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PaintingColors">
+              <PropertyRef Name="IDPC" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDPaintingColorPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__2C3393D0">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInStores" Type="Self.ProductsInStores" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInStores">
+              <PropertyRef Name="IDProductsPIS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__35BCFE0A">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInSupplies" Type="Self.ProductsInSupplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInSupplies">
+              <PropertyRef Name="IDProductPISupplies" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDPro__47DBAE45">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInCheck" Type="Self.ProductsInCheck" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="IDProduct" />
+            </Principal>
+            <Dependent Role="ProductsInCheck">
+              <PropertyRef Name="IDProductPIC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDSto__2D27B809">
+          <End Role="Stores" Type="Self.Stores" Multiplicity="0..1" />
+          <End Role="ProductsInStores" Type="Self.ProductsInStores" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Stores">
+              <PropertyRef Name="IDStore" />
+            </Principal>
+            <Dependent Role="ProductsInStores">
+              <PropertyRef Name="IDStorePIS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductsI__IDSup__36B12243">
+          <End Role="Supplies" Type="Self.Supplies" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ProductsInSupplies" Type="Self.ProductsInSupplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplies">
+              <PropertyRef Name="IDSupplie" />
+            </Principal>
+            <Dependent Role="ProductsInSupplies">
+              <PropertyRef Name="IDSuppliesPISupplies" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Supplies__IDProv__31EC6D26">
+          <End Role="Provider" Type="Self.Provider" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Supplies" Type="Self.Supplies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Provider">
+              <PropertyRef Name="IDProvider" />
+            </Principal>
+            <Dependent Role="Supplies">
+              <PropertyRef Name="IDProviderSupplie" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CетьМагазиновСантехникиEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="Self.Categories" />
+          <EntitySet Name="Checks" EntityType="Self.Checks" />
+          <EntitySet Name="Employees" EntityType="Self.Employees" />
+          <EntitySet Name="JobTitle" EntityType="Self.JobTitle" />
+          <EntitySet Name="PaintingColors" EntityType="Self.PaintingColors" />
+          <EntitySet Name="Products" EntityType="Self.Products" />
+          <EntitySet Name="ProductsInCheck" EntityType="Self.ProductsInCheck" />
+          <EntitySet Name="ProductsInStores" EntityType="Self.ProductsInStores" />
+          <EntitySet Name="ProductsInSupplies" EntityType="Self.ProductsInSupplies" />
+          <EntitySet Name="Provider" EntityType="Self.Provider" />
+          <EntitySet Name="Stores" EntityType="Self.Stores" />
+          <EntitySet Name="Supplies" EntityType="Self.Supplies" />
+          <AssociationSet Name="FK__Employees__IDCat__3C69FB99" Association="Self.FK__Employees__IDCat__3C69FB99">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Products__IDCate__29572725" Association="Self.FK__Products__IDCate__29572725">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Checks__IDEmploy__440B1D61" Association="Self.FK__Checks__IDEmploy__440B1D61">
+            <End Role="Employees" EntitySet="Employees" />
+            <End Role="Checks" EntitySet="Checks" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDChe__46E78A0C" Association="Self.FK__ProductsI__IDChe__46E78A0C">
+            <End Role="Checks" EntitySet="Checks" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employees__IDJob__3D5E1FD2" Association="Self.FK__Employees__IDJob__3D5E1FD2">
+            <End Role="JobTitle" EntitySet="JobTitle" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Employees__IDSto__3B75D760" Association="Self.FK__Employees__IDSto__3B75D760">
+            <End Role="Stores" EntitySet="Stores" />
+            <End Role="Employees" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPai__48CFD27E" Association="Self.FK__ProductsI__IDPai__48CFD27E">
+            <End Role="PaintingColors" EntitySet="PaintingColors" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__2C3393D0" Association="Self.FK__ProductsI__IDPro__2C3393D0">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInStores" EntitySet="ProductsInStores" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__35BCFE0A" Association="Self.FK__ProductsI__IDPro__35BCFE0A">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInSupplies" EntitySet="ProductsInSupplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDPro__47DBAE45" Association="Self.FK__ProductsI__IDPro__47DBAE45">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="ProductsInCheck" EntitySet="ProductsInCheck" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDSto__2D27B809" Association="Self.FK__ProductsI__IDSto__2D27B809">
+            <End Role="Stores" EntitySet="Stores" />
+            <End Role="ProductsInStores" EntitySet="ProductsInStores" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductsI__IDSup__36B12243" Association="Self.FK__ProductsI__IDSup__36B12243">
+            <End Role="Supplies" EntitySet="Supplies" />
+            <End Role="ProductsInSupplies" EntitySet="ProductsInSupplies" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Supplies__IDProv__31EC6D26" Association="Self.FK__Supplies__IDProv__31EC6D26">
+            <End Role="Provider" EntitySet="Provider" />
+            <End Role="Supplies" EntitySet="Supplies" />
+          </AssociationSet>
+          <FunctionImport Name="AddAndDeleteSupplies">
+            <Parameter Name="Params" Mode="In" Type="Int32" />
+            <Parameter Name="IDProviderSupplie" Mode="In" Type="Int32" />
+            <Parameter Name="IDProductPIS" Mode="In" Type="Int32" />
+            <Parameter Name="amountPIS" Mode="In" Type="Int32" />
+            <Parameter Name="IDSuppliesVS" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="AddCheck">
+            <Parameter Name="idEmployee" Mode="In" Type="Int32" />
+            <Parameter Name="idColor" Mode="In" Type="Int32" />
+            <Parameter Name="nameProduct" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="AddEditAndDeleteEmployees">
+            <Parameter Name="Params" Mode="In" Type="Int32" />
+            <Parameter Name="nameEmployee" Mode="In" Type="String" />
+            <Parameter Name="phoneEmployee" Mode="In" Type="String" />
+            <Parameter Name="adressEmployee" Mode="In" Type="String" />
+            <Parameter Name="expEmployee" Mode="In" Type="Int32" />
+            <Parameter Name="IDStoreEmployee" Mode="In" Type="Int32" />
+            <Parameter Name="IDCategories" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="AddEditAndDeleteProducts">
+            <Parameter Name="Params" Mode="In" Type="Int32" />
+            <Parameter Name="name" Mode="In" Type="String" />
+            <Parameter Name="price" Mode="In" Type="Decimal" />
+            <Parameter Name="purchasePriceProduct" Mode="In" Type="Decimal" />
+            <Parameter Name="AmountInStocksProduct" Mode="In" Type="Int32" />
+            <Parameter Name="IDCategories" Mode="In" Type="Int32" />
+            <Parameter Name="ImagePath" Mode="In" Type="String" />
+            <Parameter Name="IDStore" Mode="In" Type="Int32" />
+            <Parameter Name="amount" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="AddEditAndDeleteProviders">
+            <Parameter Name="Params" Mode="In" Type="Int32" />
+            <Parameter Name="nameProvider" Mode="In" Type="String" />
+            <Parameter Name="contactDetails" Mode="In" Type="String" />
+            <Parameter Name="phoneProvider" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ViewProductsOnCategories" ReturnType="Collection(CетьМагазиновСантехникиModel.ViewProductsOnCategories_Result)">
+            <Parameter Name="IDCategories" Mode="In" Type="Int32" />
+            <Parameter Name="IDStores" Mode="In" Type="Int32" />
+            <Parameter Name="Search" Mode="In" Type="String" />
+            <Parameter Name="sort" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="ViewProductsOnCategories_Result">
+          <Property Type="String" Name="nameProduct" Nullable="true" MaxLength="255" />
+          <Property Type="Decimal" Name="priceProduct" Nullable="true" Precision="19" />
+          <Property Type="Int32" Name="AmountInStocksProduct" Nullable="false" />
+          <Property Type="String" Name="ImagePath" Nullable="true" MaxLength="255" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище CетьМагазиновСантехникиModelContainer" CdmEntityContainer="CетьМагазиновСантехникиEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Categories">
+              <MappingFragment StoreEntitySet="Categories">
+                <ScalarProperty Name="IDCategorie" ColumnName="IDCategorie" />
+                <ScalarProperty Name="nameCategories" ColumnName="nameCategories" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Checks">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Checks">
+              <MappingFragment StoreEntitySet="Checks">
+                <ScalarProperty Name="IDCheck" ColumnName="IDCheck" />
+                <ScalarProperty Name="priceCheck" ColumnName="priceCheck" />
+                <ScalarProperty Name="dateAndTimeCheck" ColumnName="dateAndTimeCheck" />
+                <ScalarProperty Name="IDEmployeeCheck" ColumnName="IDEmployeeCheck" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Employees">
+              <MappingFragment StoreEntitySet="Employees">
+                <ScalarProperty Name="IDEmployee" ColumnName="IDEmployee" />
+                <ScalarProperty Name="nameEmployee" ColumnName="nameEmployee" />
+                <ScalarProperty Name="phoneEmployee" ColumnName="phoneEmployee" />
+                <ScalarProperty Name="adressEmployee" ColumnName="adressEmployee" />
+                <ScalarProperty Name="experienceEmployee" ColumnName="experienceEmployee" />
+                <ScalarProperty Name="IDStoreEmployee" ColumnName="IDStoreEmployee" />
+                <ScalarProperty Name="IDCategoriesEmployee" ColumnName="IDCategoriesEmployee" />
+                <ScalarProperty Name="IDJobTitleEmployee" ColumnName="IDJobTitleEmployee" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobTitle">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.JobTitle">
+              <MappingFragment StoreEntitySet="JobTitle">
+                <ScalarProperty Name="IDJT" ColumnName="IDJT" />
+                <ScalarProperty Name="nameJT" ColumnName="nameJT" />
+                <ScalarProperty Name="loginJT" ColumnName="loginJT" />
+                <ScalarProperty Name="passwordJT" ColumnName="passwordJT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PaintingColors">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.PaintingColors">
+              <MappingFragment StoreEntitySet="PaintingColors">
+                <ScalarProperty Name="IDPC" ColumnName="IDPC" />
+                <ScalarProperty Name="namePC" ColumnName="namePC" />
+                <ScalarProperty Name="pricePC" ColumnName="pricePC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Products">
+              <MappingFragment StoreEntitySet="Products">
+                <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+                <ScalarProperty Name="nameProduct" ColumnName="nameProduct" />
+                <ScalarProperty Name="priceProduct" ColumnName="priceProduct" />
+                <ScalarProperty Name="purchasePriceProduct" ColumnName="purchasePriceProduct" />
+                <ScalarProperty Name="AmountInStocksProduct" ColumnName="AmountInStocksProduct" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="IDCategories" ColumnName="IDCategories" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductsInCheck">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInCheck">
+              <MappingFragment StoreEntitySet="ProductsInCheck">
+                <ScalarProperty Name="IDPIC" ColumnName="IDPIC" />
+                <ScalarProperty Name="IDCheckPIC" ColumnName="IDCheckPIC" />
+                <ScalarProperty Name="IDProductPIC" ColumnName="IDProductPIC" />
+                <ScalarProperty Name="IDPaintingColorPIC" ColumnName="IDPaintingColorPIC" />
+                <ScalarProperty Name="pricePIC" ColumnName="pricePIC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductsInStores">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInStores">
+              <MappingFragment StoreEntitySet="ProductsInStores">
+                <ScalarProperty Name="IDPIS" ColumnName="IDPIS" />
+                <ScalarProperty Name="IDProductsPIS" ColumnName="IDProductsPIS" />
+                <ScalarProperty Name="IDStorePIS" ColumnName="IDStorePIS" />
+                <ScalarProperty Name="AmountPIS" ColumnName="AmountPIS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductsInSupplies">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.ProductsInSupplies">
+              <MappingFragment StoreEntitySet="ProductsInSupplies">
+                <ScalarProperty Name="IDPISupplies" ColumnName="IDPISupplies" />
+                <ScalarProperty Name="IDProductPISupplies" ColumnName="IDProductPISupplies" />
+                <ScalarProperty Name="IDSuppliesPISupplies" ColumnName="IDSuppliesPISupplies" />
+                <ScalarProperty Name="amountPISupplies" ColumnName="amountPISupplies" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Provider">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Provider">
+              <MappingFragment StoreEntitySet="Provider">
+                <ScalarProperty Name="IDProvider" ColumnName="IDProvider" />
+                <ScalarProperty Name="nameProvider" ColumnName="nameProvider" />
+                <ScalarProperty Name="contactDetailsProvider" ColumnName="contactDetailsProvider" />
+                <ScalarProperty Name="phoneProvider" ColumnName="phoneProvider" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stores">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Stores">
+              <MappingFragment StoreEntitySet="Stores">
+                <ScalarProperty Name="IDStore" ColumnName="IDStore" />
+                <ScalarProperty Name="adressStore" ColumnName="adressStore" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Supplies">
+            <EntityTypeMapping TypeName="CетьМагазиновСантехникиModel.Supplies">
+              <MappingFragment StoreEntitySet="Supplies">
+                <ScalarProperty Name="IDSupplie" ColumnName="IDSupplie" />
+                <ScalarProperty Name="IDProviderSupplie" ColumnName="IDProviderSupplie" />
+                <ScalarProperty Name="dateAndTimeSupplie" ColumnName="dateAndTimeSupplie" />
+                <ScalarProperty Name="priceSupplie" ColumnName="priceSupplie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="AddAndDeleteSupplies" FunctionName="Хранилище CетьМагазиновСантехникиModel.AddAndDeleteSupplies" />
+          <FunctionImportMapping FunctionImportName="AddCheck" FunctionName="Хранилище CетьМагазиновСантехникиModel.AddCheck" />
+          <FunctionImportMapping FunctionImportName="AddEditAndDeleteEmployees" FunctionName="Хранилище CетьМагазиновСантехникиModel.AddEditAndDeleteEmployees" />
+          <FunctionImportMapping FunctionImportName="AddEditAndDeleteProducts" FunctionName="Хранилище CетьМагазиновСантехникиModel.AddEditAndDeleteProducts" />
+          <FunctionImportMapping FunctionImportName="AddEditAndDeleteProviders" FunctionName="Хранилище CетьМагазиновСантехникиModel.AddEditAndDeleteProviders" />
+          <FunctionImportMapping FunctionImportName="ViewProductsOnCategories" FunctionName="Хранилище CетьМагазиновСантехникиModel.ViewProductsOnCategories">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="CетьМагазиновСантехникиModel.ViewProductsOnCategories_Result">
+                <ScalarProperty Name="nameProduct" ColumnName="nameProduct" />
+                <ScalarProperty Name="priceProduct" ColumnName="priceProduct" />
+                <ScalarProperty Name="AmountInStocksProduct" ColumnName="AmountInStocksProduct" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

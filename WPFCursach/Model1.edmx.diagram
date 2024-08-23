@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3db3767ed86140a6b1465de68195f6f3" Name="Diagram1">
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Categories" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Checks" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Employees" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.JobTitle" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.PaintingColors" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Products" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.ProductsInCheck" Width="1.5" PointX="7.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.ProductsInStores" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.ProductsInSupplies" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Provider" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Stores" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CетьМагазиновСантехникиModel.Supplies" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Employees__IDCat__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Products__IDCate__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Checks__IDEmploy__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDChe__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Employees__IDJob__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Employees__IDSto__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDPai__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDPro__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDPro__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDPro__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDSto__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__ProductsI__IDSup__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="CетьМагазиновСантехникиModel.FK__Supplies__IDProv__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

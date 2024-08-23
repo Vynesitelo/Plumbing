@@ -1,0 +1,52 @@
+﻿<Window x:Class="WPFCursach.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCursach"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" Closing="Window_Closing" WindowStyle="None"
+        Title="Меню админа" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="1">
+            <TabItem Header="Сотрудники">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="691*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="addEmployee" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Добавить" Width="237" Height="40" FontSize="20" Click="addEmployee_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="editEmployee" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,99,0" Content="Изменить" Width="310" Height="40" FontSize="20" Click="editEmployee_Click"  Grid.Column="1"/>
+                    <Button x:Name="deleteEmployee" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Удалить" Width="237" Height="40" FontSize="20" Click="deleteEmployee_Click" Grid.Column="1"/>
+                    <DataGrid  x:Name="employeeDataGrid" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Поставщики">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="addProvider" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Добавить" Width="237" Height="40" FontSize="20" Click="addProvider_Click"/>
+                    <Button x:Name="editProvider" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Изменить" Width="310" Height="40" FontSize="20" Click="editProvider_Click"/>
+                    <Button x:Name="deleteProvider" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Удалить" Width="237" Height="40" FontSize="20" Click="deleteProvider_Click"/>
+                    <DataGrid Margin="0,0,0,45" x:Name="providerDataGrid"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Поставки">
+                <Grid  Background="#FFE5E5E5">
+                    <Button x:Name="addSupplie" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Добавить" Width="392" Height="40" FontSize="20" Click="addSupplie_Click"/>
+                    <Button x:Name="deleteSupplie" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Удалить" Width="397" Height="40" FontSize="20" Click="deleteSupplie_Click"/>
+                    <DataGrid Margin="0,0,0,45" x:Name="suppliesDataGrid"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Line Grid.Row="0" Grid.ColumnSpan="9" X1="0" Y1="24" X2="800" Y2="24" Stroke="Gray"/>
+        <Label Grid.Row="0" Grid.ColumnSpan="4" Margin="0,0,0,0" FontSize="12" Content="Меню админа" HorizontalAlignment="Left" FontWeight="Bold"/>
+        <Button Click="ButtonExit_Click" Grid.Row="0" Grid.Column="7" FontSize="14" Width="24" HorizontalAlignment="Right" FontWeight="Bold">X</Button>
+    </Grid>
+</Window>
+
